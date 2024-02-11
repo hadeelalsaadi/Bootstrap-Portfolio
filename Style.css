@@ -1,0 +1,25 @@
+
+.name{
+    font-family: 'Cinzel Decorative', serif;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #35C7F2, white,#86B7F2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .custume-gradient{
+    background: rgb(140,137,196);
+    background: linear-gradient(90deg, rgba(140,137,196,1) 0%, rgba(114,221,255,0.9025735294117647) 100%);
+  }
